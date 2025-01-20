@@ -23,7 +23,7 @@ body {
   background-image: url('japan-japanese-style-japanese-food-d7c572-1024.jpg'); /* Replace with your image */
   background-size: cover;
   background-position: center;
-  filter: brightness(50%);
+  filter: brightness(80%);
 }
 
 .hero-text {
