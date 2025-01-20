@@ -15,18 +15,39 @@ body {
   height: 100vh; /* Full height of the viewport */
   background-color: black;
   overflow: hidden;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  padding: 0 10%; /* This shrinks the image and shows black edges */
 }
 
-/* Wave design in hero section */
+/* Hero image style */
 .hero-image {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url('japan-japanese-style-japanese-food-d7c572-1024.jpg'); /* Replace with your actual hero image */
+  background-image: url('your-hero-image.jpg'); /* Replace with your actual hero image */
   background-size: cover;
   background-position: center;
+  object-fit: cover;
+  filter: brightness(50%); /* Darken the image to make the text stand out */
 }
 
+/* Overlay text on the hero image */
+.hero-text {
+  position: relative;
+  z-index: 2; /* Bring text above the image */
+  color: black; /* Black text */
+  font-size: 3em; /* Larger font size for the first paragraph */
+  text-align: center; /* Center-align the text */
+  font-weight: bold;
+  max-width: 80%; /* Limit width of text to avoid stretching across too much */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Slight white background behind text for contrast */
+  border-radius: 10px; /* Rounded corners for the text box */
+}
+
+/* Wave design in hero section */
 .wave {
   position: absolute;
   bottom: 0;
