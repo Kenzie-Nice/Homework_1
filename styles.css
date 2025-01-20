@@ -23,7 +23,7 @@ body {
   background-image: url('japan-japanese-style-japanese-food-d7c572-1024.jpg'); /* Replace with your image */
   background-size: cover;
   background-position: center;
-  filter: brightness(50%);
+  filter: brightness(80%);
 }
 
 .hero-text {
@@ -48,9 +48,21 @@ body {
   text-align: center;
 }
 
-p {
+/* Style for paragraphs inside rounded boxes */
+.paragraph-box {
+  background-color: rgba(144, 238, 144, 0.3); /* Pastel green, 30% opacity */
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+  border-radius: 15px; /* Rounded corners */
   font-size: 1.2em;
   line-height: 1.6;
   margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+p {
+  margin: 0;
 }
 
