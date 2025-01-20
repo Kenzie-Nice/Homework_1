@@ -4,20 +4,61 @@ body {
   color: white; /* White font */
   font-family: Arial, sans-serif; /* Clean, simple font */
   margin: 0; /* Remove default margins */
-  padding: 20px; /* Add space inside the border */
-  border: 2px solid white; /* Thin white border around the page */
+  padding: 0; /* Remove padding from the body */
   box-sizing: border-box; /* Ensure padding doesn't expand the border size */
 }
 
-/* Style the main heading */
-h1 {
-  text-align: center; /* Center-align the heading */
-  font-size: 2em; /* Make the heading slightly larger */
-  margin-bottom: 10px; /* Add space below the heading */
+/* Hero section styles */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full height of the viewport */
+  background-color: black;
+  overflow: hidden;
 }
 
-/* Style paragraphs */
+/* Wave design in hero section */
+.hero-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('japan-japanese-style-japanese-food-d7c572-1024.jpg'); /* Replace with your actual hero image */
+  background-size: cover;
+  background-position: center;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: url('your-wave-design.svg') no-repeat center center; /* Replace with your wave design image */
+  background-size: cover;
+}
+
+/* Style the content section with blocks */
+.content {
+  padding: 50px 10%;
+}
+
+.block {
+  background-color: white; /* White background for blocks */
+  color: black; /* Black text inside the blocks */
+  margin-bottom: 30px; /* Space between blocks */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners for blocks */
+}
+
+/* Style the main heading inside content */
+h2 {
+  font-size: 1.8em; /* Slightly larger heading size */
+  text-align: center; /* Center-align the heading */
+  margin-bottom: 15px; /* Space below the heading */
+}
+
+/* Style paragraphs inside blocks */
 p {
-  font-size: 1.2em; /* Make the paragraph text a little larger */
-  line-height: 1.5; /* Add space between lines for better readability */
+  font-size: 1.2em; /* Larger font for paragraphs */
+  line-height: 1.6; /* Add space between lines for better readability */
+  text-align: justify; /* Justify text for better block appearance */
 }
