@@ -1,43 +1,23 @@
+/* Apply styles to the entire body */
 body {
   background-color: black; /* Black background */
   color: white; /* White font */
-  font-family: Arial, sans-serif; /* Simple, clean font */
+  font-family: Arial, sans-serif; /* Clean, simple font */
   margin: 0; /* Remove default margins */
-  padding: 20px; /* Add some space inside the border */
+  padding: 20px; /* Add space inside the border */
   border: 2px solid white; /* Thin white border around the page */
-  box-sizing: border-box; /* Include padding inside the border width */
-body {
+  box-sizing: border-box; /* Ensure padding doesn't expand the border size */
+}
 
+/* Style the main heading */
+h1 {
+  text-align: center; /* Center-align the heading */
+  font-size: 2em; /* Make the heading slightly larger */
+  margin-bottom: 10px; /* Add space below the heading */
+}
 
-}
-header {
-  background: #007acc;
-  color: black;
-  padding: 1rem 0;
-  text-align: center;
-}
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-nav ul li {
-  display: inline;
-  margin: 0 10px;
-}
-nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-section {
-  margin: 20px;
-  padding: 20px;
-  background: white;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #333;
-  color: white;
+/* Style paragraphs */
+p {
+  font-size: 1.2em; /* Make the paragraph text a little larger */
+  line-height: 1.5; /* Add space between lines for better readability */
 }
