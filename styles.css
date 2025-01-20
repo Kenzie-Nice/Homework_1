@@ -1,10 +1,15 @@
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
+/* Apply styles to the entire body */
+body {
+  background-color: black; /* Black background */
+  color: white; /* White font */
+  font-family: Arial, sans-serif; /* Simple, clean font */
+  margin: 0; /* Remove default margins */
+  padding: 20px; /* Add some space inside the border */
+  border: 2px solid white; /* Thin white border around the page */
+  box-sizing: border-box; /* Include padding inside the border width */
+}
+
 }
 header {
   background: #007acc;
