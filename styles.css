@@ -1,6 +1,4 @@
 body {
-/* Apply styles to the entire body */
-body {
   background-color: black; /* Black background */
   color: white; /* White font */
   font-family: Arial, sans-serif; /* Simple, clean font */
@@ -8,7 +6,8 @@ body {
   padding: 20px; /* Add some space inside the border */
   border: 2px solid white; /* Thin white border around the page */
   box-sizing: border-box; /* Include padding inside the border width */
-}
+body {
+
 
 }
 header {
